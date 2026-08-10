@@ -112,7 +112,7 @@ export default function PreviewDialog({
             }
           }}
         >
-          <div className="flex max-h-[90vh] w-full max-w-7xl flex-col overflow-hidden rounded-xl bg-white shadow-xl">
+          <div className="flex max-h-[90vh] w-full max-w-8xl flex-col overflow-hidden rounded-xl bg-white shadow-xl">
             {/* Header */}
             <div className="flex items-center justify-between border-b p-4">
               <div>
