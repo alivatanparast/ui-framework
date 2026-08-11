@@ -109,7 +109,7 @@ export function Marquee({
 }
 
 
-export default function Demo() {
+export default function MarqueeDemo() {
   return (
     <div className='w-[800px]'>
 
