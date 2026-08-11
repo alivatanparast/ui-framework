@@ -1,6 +1,8 @@
+'use client'
+
 import React, {useEffect, useRef} from 'react';
 import {Renderer, Program, Mesh, Color, Triangle} from 'ogl';
-import {Iridescence} from "./Iridescence";
+import {BackgroundIridescence} from "./Iridescence";
 
 const VERT = `#version 300 es
 in vec2 position;
@@ -115,7 +117,7 @@ interface AuroraProps {
   className?: string;
 }
 
-export const Aurora = ({
+export const BackgroundAurora = ({
                          className,
                          colorStops = ['#5227FF', '#7cff67', '#5227FF'],
                          amplitude = 1.0,
@@ -205,10 +207,10 @@ export const Aurora = ({
 }
 
 
-export default function Demo ()  {
+export default function BackgroundAuroraDemo ()  {
   return (
     <div>
-      <Aurora
+      <BackgroundAurora
         colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
         blend={0.9}
         amplitude={1.0}

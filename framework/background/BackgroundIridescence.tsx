@@ -1,3 +1,6 @@
+'use client'
+
+
 import React, { useEffect, useRef } from 'react';
 import { Renderer, Program, Mesh, Color, Triangle } from 'ogl';
 
@@ -53,7 +56,7 @@ export interface IridescenceProps {
   style?: React.CSSProperties;
 }
 
-export const Iridescence: React.FC<IridescenceProps> = ({
+export const BackgroundIridescence: React.FC<IridescenceProps> = ({
                                                    color = [1, 1, 1],
                                                    speed = 1.0,
                                                    amplitude = 0.1,
@@ -140,13 +143,13 @@ export const Iridescence: React.FC<IridescenceProps> = ({
 };
 
 
-export default function Demo ()  {
+export default function BackgroundIridescenceDemo ()  {
   return (
     <div>
 
       <div className="h-screen bg-black flex items-center justify-center">
         <div className="w-[500px] h-[400px] border-2 border-white rounded-lg overflow-hidden">
-          <Iridescence
+          <BackgroundIridescence
             color={[0.2, 0.6, 1]}  // RGB values (0–1)
             speed={1.2}
             amplitude={0.15}
