@@ -1,9 +1,11 @@
 import React from "react";
 import PreviewDialog from "@/components/PreviewDialog";
 import FeatureCarousel from "@/framework/section/feature/FeatureCarousel";
+import {ScrollingFeatureShowcase} from "@/framework/section/feature/FeatureScrollShowCase";
 
 const components = [
   {component: <FeatureCarousel/>, path: "framework/section/feature/FeatureCarousel.tsx"},
+  {component: <ScrollingFeatureShowcase/>, path: "framework/section/feature/ScrollingFeatureShowcase.tsx"},
 ]
 
 const Page = () => {

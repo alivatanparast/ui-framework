@@ -1,7 +1,7 @@
 import React from "react";
-import PreviewDialog from "@/components/PreviewDialog";
 import Timeline3D, {TimelineEvent} from "@/framework/section/timeline/Timeline3D";
-import { Code, Award, Globe, Briefcase, BookOpen } from 'lucide-react';
+import {Award, BookOpen, Briefcase, Code, Globe} from 'lucide-react';
+import PreviewDialog from "@/components/PreviewDialog";
 
 const timelineEvents: TimelineEvent[] = [
   {
@@ -67,7 +67,7 @@ const components = [
     component: <Timeline3D events={timelineEvents}
                            primaryColor="bg-indigo-600"
                            secondaryColor="bg-violet-500"
-                           accentColor="bg-emerald-500"/>, path: "framework/section/timeline/TestimonialsCarousel.tsx"
+                           accentColor="bg-emerald-500"/>, path: "framework/section/timeline/TestimonialsCarousel.tsx",
   },
 ]
 

@@ -2,7 +2,7 @@ import React from "react";
 import PreviewDialog from "@/components/PreviewDialog";
 import HeroSection from "@/framework/section/hero/HeroGrid";
 import HeroWithBanner from "@/framework/section/hero/HeroWithBanner";
-import {HeroCarousel} from "@/framework/section/feature/HeroCarsouel";
+import {HeroCarousel} from "@/framework/section/hero/HeroCarsouel";
 import HeroShader from "@/framework/section/hero/HeroShader";
 import {HeroWithLogo} from "@/framework/section/hero/HeroWithLogo";
 
