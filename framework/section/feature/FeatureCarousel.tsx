@@ -23,7 +23,7 @@ const FEATURES = [
     label: "Sustainable Sourcing",
     icon: Pizza,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Ethically sourced ingredients from local farmers.",
   },
   {
@@ -31,7 +31,7 @@ const FEATURES = [
     label: "Community Focused",
     icon: Terminal,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Building stronger bonds through shared experiences.",
   },
   {
@@ -39,7 +39,7 @@ const FEATURES = [
     label: "Global Reach",
     icon: Search,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Connecting visionaries across all continents.",
   },
   {
@@ -47,7 +47,7 @@ const FEATURES = [
     label: "Award Winning",
     icon: CheckCircle2,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Recognized excellence in design and innovation.",
   },
   {
@@ -55,7 +55,7 @@ const FEATURES = [
     label: "Cloud Ready",
     icon: Cloud,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Scale your infrastructure with seamless ease.",
   },
   {
@@ -63,7 +63,7 @@ const FEATURES = [
     label: "Mobile First",
     icon: Smartphone,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "A world-class experience on every single device.",
   },
   {
@@ -71,7 +71,7 @@ const FEATURES = [
     label: "Real-time Analytics",
     icon: LayoutDashboard,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Insights at your fingertips, updated in real-time.",
   },
   {
@@ -79,7 +79,7 @@ const FEATURES = [
     label: "Enterprise Security",
     icon: CheckCircle2,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Bank-grade security protocols for your data.",
   },
   {
@@ -87,7 +87,7 @@ const FEATURES = [
     label: "Magic Automations",
     icon: Wand2,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Let AI handle the repetitive tasks for you.",
   },
   {
@@ -95,7 +95,7 @@ const FEATURES = [
     label: "Locally Owned",
     icon: CheckCircle2,
     image:
-      "https://www.loremfaces.net/256/id/1.jpg",
+      "https://doodleipsum.com/700?i=7d79895540161ca8c31dff95199e7151",
     description: "Supporting local businesses and creators.",
   },
 ];
